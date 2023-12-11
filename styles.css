@@ -1,0 +1,336 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #007BFF;
+}
+
+/* Apply dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+main h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the links in the Useful Links section */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Style the Image Gallery */
+.image-gallery {
+    background-color: #bccad8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #007BFF;
+}
+
+.image-gallery img {
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.image-gallery a {   
+    width: 50%;
+}
+
+/* Style the Contact Us form */
+form {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add some spacing to the navigation links */
+nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style the "Toggle Dark Mode" button */
+#dark-mode-toggle {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #0056b3;
+}
+
+/* Style the section container */
+.section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #007BFF;
+    text-align: center;
+}
+
+/* Style the h1 */
+.section h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2a8285;
+}
+
+/* Style the p */
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #2a8285;
+}
+
+/* Style the button */
+.section button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Add hover effect to the button */
+.section button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the contact section */
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, equal width */
+    gap: 10px; /* Gap between columns */
+    margin-top: 20px;
+}
+
+/* Style the contact video */
+.contact-video {
+    height: 100%;
+    max-width: 100%; /* Ensure the video scales properly */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.contact-video iframe {
+    width: 100%; /* Make the video responsive by using a percentage width */
+    height: auto; /* Maintain the video's aspect ratio */
+}
+
+/* Style the contact info */
+.contact-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0056b3;
+    text-align: center;
+}
+
+/* Style the h2 */
+.contact-info h2 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the p */
+.contact-info p {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+.contact-info button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Add hover effect to the button */
+.contact-info button:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+    /* Change to a single column layout on mobile */
+    .contact-section {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+}
+
+/* Style the image gallery and set initial transform values */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+    perspective: 1000px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.image-container:hover img {
+    transform: rotateY(180deg);
+}
+
+.image-container img {
+    max-width: 100%;
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+/* Style alt text overlay */
+.image-container::before {
+    content: attr(alt);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    transition: opacity 0.3s;
+    opacity: 0;
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    text-align: center; /* Center text */
+}
+
+.image-container:hover::before {
+    opacity: 1;
+}
+
+
